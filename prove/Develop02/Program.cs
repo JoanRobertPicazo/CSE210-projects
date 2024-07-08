@@ -28,10 +28,10 @@ class Program
         while (true)
         {
             Console.WriteLine("Please select one of the following choises");
-            Console.WriteLine("1. Write");
-            Console.WriteLine("2. Display");
-            Console.WriteLine("3. Load");
-            Console.WriteLine("4. Save");
+            Console.WriteLine("1. Write an entry"); //More detail in what the user is doing
+            Console.WriteLine("2. Display your current entries");
+            Console.WriteLine("3. Load a journal from a file");
+            Console.WriteLine("4. Save your entries as a file");
             Console.WriteLine("5. Quit");
             Console.Write("What would you like to do?: ");
             string choice = Console.ReadLine();
